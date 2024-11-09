@@ -34,10 +34,10 @@ public class RandomSearchAutomation {
             driver.get("https://www.bing.com"); // Use Bing for searching
 
             // WebDriverWait to ensure elements are present before interacting
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // Increased wait time to 15 seconds
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Increased wait time to 15 seconds
 
             // Repeat the search process 10 times
-            for (int i = 0; i < 15; i++) {
+            for (int i = 0; i < 35; i++) {
                 System.out.println("Starting search iteration " + (i + 1));
 
                 // Wait for the search bar to be visible before interacting
